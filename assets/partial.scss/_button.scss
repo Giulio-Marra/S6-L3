@@ -1,0 +1,26 @@
+@import "_color.scss";
+
+@for $i from 1 through 3 {
+  .btn#{$i} {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    &:hover {
+      background-color: black;
+      transform: scale(1.2);
+    }
+  }
+}
+
+.btn1{
+    background-color: $colorBlue;
+}
+.btn2{
+    background-color: $colorOrange;
+}
+.btn3{
+    background-color: $colorGreen;
+}
